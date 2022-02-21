@@ -1,10 +1,6 @@
 import React from 'react';
-import {
-  View,
-  Text
-} from 'react-native';
 
-import { Container } from './styles';
+import { Container, Title } from './styles';
 
 
 interface Props {
@@ -14,7 +10,7 @@ interface Props {
 export function Dashboard({ title }: Props) {
   return (
     <Container>
-      <Text>{title}</Text>
+      <Title>{title}</Title>
     </Container>
   );
 }
