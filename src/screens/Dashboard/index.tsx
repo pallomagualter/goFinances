@@ -1,16 +1,16 @@
 import React from 'react';
 
-import { Container, Title } from './styles';
+import {
+  Container,
+  Header
+} from './styles';
 
-
-interface Props {
-  title: string;
-}
-
-export function Dashboard({ title }: Props) {
+export function Dashboard() {
   return (
     <Container>
-      <Title>{title}</Title>
+      <Header>
+
+      </Header>
     </Container>
   );
 }

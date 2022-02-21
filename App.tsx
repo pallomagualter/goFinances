@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Dashboard title='Dashboard' />
+      <Dashboard />
     </ThemeProvider>
   );
 }
